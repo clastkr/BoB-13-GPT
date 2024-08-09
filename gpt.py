@@ -44,7 +44,7 @@ def main():
 
             for i, entry in enumerate(entries):
                 print(f"partition {i+1}")
-                print("---------------------------")
+                print("\n")
                 print_info(entry)
 
                 real_offset = entry.first_lba * 512
